@@ -1,5 +1,5 @@
 # The Parent Image from which you are building
-FROM python:3
+FROM python:3.9
 
 # Precise the working directory
 WORKDIR /usr/src/app
