@@ -9,7 +9,8 @@ pipeline {
         bat 'git checkout dev'
 
         bat 'git pull'
-
+        bat 'git branch -d staging'
+        
         // Create a new branch named 'staging' and check it out
         bat 'git checkout -b staging && git push --set-upstream origin staging'
       }
